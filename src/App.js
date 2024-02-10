@@ -1,22 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonsSection from './Componentes/Buttons/ButtonsSection';
+import Page from './Componentes/Nested/Page';
 
 function App() {
+
+  const itemsList = ["pera", "manzana", "sandia", "melocoton"]
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Aprende React</h1>
+
+        <ButtonsSection title={"Sección Botones"}/>
+
+        <Page data={itemsList} />
       </header>
     </div>
   );
