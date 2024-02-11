@@ -1,11 +1,8 @@
 import { useContext } from "react"
 import { DataContext } from "../../App"
 
-export default function List() {
-
-    const data = useContext(DataContext)
-    
-    function listData() {
+export default function List() {    
+    function listData(data = []) {
         return (
             <ul>
                 {data.map((item) => <li>{item}</li>)}
