@@ -1,0 +1,10 @@
+{
+    "itemsList": [
+        {"id": 1, "name": "manazana"},
+        {"id": 1, "name": "pera"},
+        {"id": 1, "name": "naranaja"},
+        {"id": 1, "name": "platano"},
+        {"id": 1, "name": "sandia"},
+        {"id": 1, "name": "melon"}
+    ] 
+}

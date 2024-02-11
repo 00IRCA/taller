@@ -1,4 +1,9 @@
-export default function List({data}) {
+import { useContext } from "react"
+import { DataContext } from "../../App"
+
+export default function List() {
+
+    const data = useContext(DataContext)
     
     function listData() {
         return (
