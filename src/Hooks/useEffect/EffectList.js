@@ -4,6 +4,9 @@ export default function EffectList() {
     const [data, setData] = useState([]) 
     const [loaded, setLoaded] = useState(false)
 
+    //Instalar dependencias - npm install
+    //Lanzar comando | npm json-server -p 3001 mocks/service.json | en otra terminal
+    
     useEffect(() => {
         //Delay de 3 segundos para simular retraso en servidor
         setTimeout(getData, 3000)
